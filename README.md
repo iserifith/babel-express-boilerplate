@@ -12,7 +12,7 @@ $ git clone https://github.com/iserifith/babel-express-boilerplate.git
 $ cd express-es6-rest-api
 
 # Make it your own
-$ rm -rf .git && git init && npm init
+$ rm -rf .git && git init
 
 # Install dependencies
 $ npm install
