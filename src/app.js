@@ -3,7 +3,7 @@ import cors from "cors";
 import logger from "morgan";
 import bodyParser from "body-parser";
 import routes from "./routes";
-import { sequelize } from "./src/models"
+import { sequelize } from "./models";
 
 const app = express();
 
@@ -24,7 +24,7 @@ sequelize.sync({
 		handleDisconnects: true,
 	}
 }).then(() => {
-	app.listen(port, () => {
-		console.log("Server started on port " + port);
+	app.listen(PORT, () => {
+		console.log("Server started on port " + PORT);
 	});
 });

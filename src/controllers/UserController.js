@@ -7,4 +7,5 @@ exports.login = (req, res) => {
 		username: req.params.username,
 		password: req.params.password
 	}
+	return console.log('user controller');
 }

@@ -1,4 +1,4 @@
-import User from "./controllers/UserController";
+import UserController from "./controllers/UserController";
 
 module.exports = app => {
 	app.get("/", (req, res) => {
